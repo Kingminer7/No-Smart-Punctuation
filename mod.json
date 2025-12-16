@@ -1,0 +1,12 @@
+{
+	"geode": "4.10.0",
+	"gd": {
+		"ios": "2.2074"
+	},
+	"id": "km7dev.no-smart-punctuation",
+	"name": "No Smart Punctuation",
+	"version": "v1.0.0",
+	"developer": "km7dev",
+	"early-load": true,
+	"description": "Disables smart punctuation."
+}
