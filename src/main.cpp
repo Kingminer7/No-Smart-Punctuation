@@ -31,8 +31,6 @@ class $modify(CCIMEDispatcherNoSmartPunctuation, CCIMEDispatcher) {
         // separate functionality because sending multiple chars is handled differently for some reason (it replaces the whole text)
         // its prolly some weird func in CCTextInputNode ngl
 
-        unsigned char c = text[0];
-
         if (!memcmp(text, "—", 3)) {
             CCIMEDispatcher::dispatchInsertText("-", 1, code);
             CCIMEDispatcher::dispatchInsertText("-", 1, cocos2d::enumKeyCodes::KEY_Unknown);
