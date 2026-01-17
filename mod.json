@@ -8,5 +8,9 @@
 	"version": "v1.0.0",
 	"developer": "km7dev",
 	"early-load": true,
-	"description": "Disables smart punctuation."
+	"description": "Disables smart punctuation.",
+	"links": {
+		"source": "https://github.com/kingminer7/no-smart-punctuation"
+	},
+	"tags": ["bugfix"]
 }
