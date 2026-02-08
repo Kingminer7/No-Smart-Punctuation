@@ -56,14 +56,3 @@ class $modify(CCIMEDispatcherNoSmartPunctuation, CCIMEDispatcher) {
         CCIMEDispatcher::dispatchInsertText(text, len, code);
     }
 };
-
-$execute {
-    static_assert(GEODE_COMP_GD_VERSION == 22074, "Update the offset for the EAGLView::isSecureTextEntry patch!");
-    if (Loader::get()->isPatchless()) {
-        GEODE_MOD_STATIC_PATCH(0x41371c, { 0 });
-    } else {
-        (void) Mod::get()->patch(reinterpret_cast<void*>(geode::base::get() + 0x41371c), { 0 }).mapErr([](const std::string& err) {
-            return log::error("Failed to patch EAGLView::isSecureTextEntry: {}", err), err;
-        });
-    }
-}

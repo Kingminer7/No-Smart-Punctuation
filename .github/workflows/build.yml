@@ -31,6 +31,7 @@
           with:
             bindings: geode-sdk/bindings
             combine: true
+            sdk: nightly
             build-config: ${{ github.event.inputs.build_type != 'release' && 'Debug' || 'Release' }}
             target: iOS
 
