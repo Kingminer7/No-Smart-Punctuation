@@ -10,7 +10,7 @@
 	"early-load": true,
 	"description": "Disables smart punctuation.",
 	"links": {
-		"source": "https://github.com/kingminer7/no-smart-punctuation"
+		"source": "https://codeberg.org/km7dev/no-smart-punctuation"
 	},
 	"tags": ["bugfix"]
 }
