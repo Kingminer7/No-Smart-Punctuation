@@ -1,3 +1,6 @@
+# [Moved to Codeberg](https://codeberg.org/km7dev/No-Smart-Punctuation)
+
+
 # No Smart Punctuation
 
 ![Mod Version](https://api.geode-sdk.org/v1/mods/km7dev.no-smart-punctuation/status_badge?stat=version)
